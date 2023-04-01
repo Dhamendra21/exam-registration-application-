@@ -75,3 +75,6 @@ let registerstudent={
   sucessalert()
 // console.table(registeruser)
 }
+const examcenter = ['Raipur', 'Bilashpur', 'Durg']; 
+let rand = examcenter[(Math.random() * examcenter.length) | 0]
+console.log(rand)
